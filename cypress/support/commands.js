@@ -40,8 +40,15 @@ cy.visit('/')
     cy.get('#phone').type('+972595709083')
     cy.get('#city').type('Jenin')
     cy.contains('Region').parent().find('select')
-    .select('West Bank')  
+    .select('West Bank')
+    cy.contains('Delivery Type').parent().find('select')
+    .select('Express')
+    cy.get('input[type="radio"]').then(radiobutton =>{
+        cy.wrap(radiobutton).eq(0).check()
 
+    })
+    cy.contains('button','Place Order').click()
+   
 
 
  })
