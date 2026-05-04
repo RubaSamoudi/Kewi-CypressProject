@@ -33,3 +33,15 @@ Cypress.Commands.add('LoginToApp', () => {
     })
 cy.visit('/')
  })
+ Cypress.Commands.add('AddToCart',()=>{
+    cy.get('button').find('svg.lucide-shopping-cart').first().parent('button').click()
+    cy.contains('button','Checkout').click()
+    cy.get('#name').type('Roba')
+    cy.get('#phone').type('+972595709083')
+    cy.get('#city').type('Jenin')
+    cy.contains('Region').parent().find('select')
+    .select('West Bank')  
+
+
+
+ })

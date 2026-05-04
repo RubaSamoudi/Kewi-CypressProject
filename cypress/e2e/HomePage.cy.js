@@ -10,9 +10,13 @@ it('Select Product',()=>{
     //cy.get('[role="listbox"]').contains('Chanel').click()
        
 
-    
+
    // cy.contains('button', 'All brands').should('contain.text', 'Chanel')
    cy.contains('h3','COACH TOTEBAG').click()
+   cy.contains('button','Add to Cart').click()
+   cy.AddToCart()
+   
+
 
      
 
