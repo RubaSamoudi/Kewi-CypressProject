@@ -12,6 +12,7 @@ it('Select Product',()=>{
 
 
    // cy.contains('button', 'All brands').should('contain.text', 'Chanel')
+   cy.get('[placeholder="Search in this category..."]').click().type('COACH TOTEBAG')
    cy.contains('h3','COACH TOTEBAG').click()
    cy.contains('button','Add to Cart').click()
    cy.AddToCart()
