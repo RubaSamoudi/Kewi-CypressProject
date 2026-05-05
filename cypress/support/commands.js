@@ -23,6 +23,7 @@
 //
 // -- This will overwrite an existing command --
 // Cypress.Commands.overwrite('visit', (originalFn, url, options) => { ... })
+/// <reference path="../support/index.d.ts" />
 Cypress.Commands.add('LoginToApp', () => { 
     cy.session('user',()=>{
         cy.visit('/')

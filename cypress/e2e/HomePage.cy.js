@@ -1,4 +1,6 @@
 /// <reference types="cypress" />
+/// <reference path="../support/index.d.ts" />
+
 beforeEach('open Applicaton',()=>{
     cy.LoginToApp()
 })
