@@ -48,8 +48,9 @@ cy.visit('/')
         cy.wrap(radiobutton).eq(0).check()
 
     })
+    cy.get('[type="checkbox"]').click()
+    cy.get('button[type="submit"]').click()
+
     cy.contains('button','Place Order').click()
    
-
-
  })

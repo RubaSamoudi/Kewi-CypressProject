@@ -35,11 +35,3 @@ it('Wallets Categories', () => {
       .find('span')
       .should('contain.text', 'Medium')
 });
-it.only('Delete Items', () => {
-
-   
-cy.get('button').find('svg.lucide-shopping-cart').first().parent('button').click()
-
-
-    
-});
