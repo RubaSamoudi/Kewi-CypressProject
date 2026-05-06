@@ -25,6 +25,7 @@ cy.contains('button', 'Back to Products').click()
       .should('be.visible')
       .and('be.enabled')
       .click()
+      
 cy.AddToCart()
     
     
