@@ -49,26 +49,8 @@
         "updatedAt": "2026-04-05T11:06:30.070Z",
         "__v": 0
     },
-    {
-        "_id": "69d242887e685b164dfb4a90",
-        "name": "Kéwi accessories",
-        "image": "https://firebasestorage.googleapis.com/v0/b/fitrack-efd01.appspot.com/o/category_images%2F1776088663201-images%20(1).png?alt=media&token=76f037a5-a758-4b73-8c76-952fc39eb809",
-        "description": "",
-        "other": false,
-        "createdAt": "2026-04-05T11:07:52.182Z",
-        "updatedAt": "2026-04-13T13:57:45.923Z",
-        "__v": 0
-    },
-    {
-        "_id": "69d242f07e685b164dfb4a95",
-        "name": "Kéwi travel bags",
-        "image": "https://firebasestorage.googleapis.com/v0/b/fitrack-efd01.appspot.com/o/category_images%2F1775387368642-AFQJ5801.JPG?alt=media&token=1ee91d9c-82d7-4611-9409-3338398609c7",
-        "description": "",
-        "other": false,
-        "createdAt": "2026-04-05T11:09:36.830Z",
-        "updatedAt": "2026-04-05T11:09:36.830Z",
-        "__v": 0
-    },
+   
+   
     {
         "_id": "69d246657e685b164dfb4af4",
         "name": "Kéwi hair clips",
