@@ -19,7 +19,9 @@ it('Multi Product Order', () => {
       .and('be.enabled')
       .click()
 cy.contains('button', 'Back to Products').click()
- cy.contains('span','Kéwi wallets').click()
+cy.get('svg.lucide-arrow-left').click()
+
+ cy.contains('Kéwi wallets').click()
   cy.contains('h3', 'LV wallet 12').click()
   cy.contains('button', 'Add to Cart')
       .should('be.visible')

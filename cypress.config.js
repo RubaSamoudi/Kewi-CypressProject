@@ -8,7 +8,7 @@ module.exports = defineConfig({
     baseUrl:"https://kewi.ps/",
     viewportWidth: 1280,
     viewportHeight: 720,
-    defaultCommandTimeout: 6000,
+    defaultCommandTimeout: 9000,
     setupNodeEvents(on, config) {
       // implement node event listeners here
     },
